@@ -1,0 +1,96 @@
+[2025-06-02 20:38:35] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 78, in compare_versions
+    na = int(re.match(r'\d+', a).group()) if re.match(r'\d+', a) else 0  # 提取a的数字部分
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\re\__init__.py", line 166, in match
+    return _compile(pattern, flags).match(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2025-06-02 20:38:35] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 35, in extract_major_version
+    name = Path(filename).stem
+           ^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 871, in __new__
+    self = cls._from_parts(args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 509, in _from_parts
+    drv, root, parts = self._parse_args(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 493, in _parse_args
+    a = os.fspath(a)
+        ^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+[2025-06-02 20:40:31] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 78, in compare_versions
+    na = int(re.match(r'\d+', a).group()) if re.match(r'\d+', a) else 0  # 提取a的数字部分
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\re\__init__.py", line 166, in match
+    return _compile(pattern, flags).match(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2025-06-02 20:40:31] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 35, in extract_major_version
+    name = Path(filename).stem
+           ^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 871, in __new__
+    self = cls._from_parts(args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 509, in _from_parts
+    drv, root, parts = self._parse_args(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 493, in _parse_args
+    a = os.fspath(a)
+        ^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+[2025-06-02 20:41:36] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 78, in compare_versions
+    na = int(re.match(r'\d+', a).group()) if re.match(r'\d+', a) else 0  # 提取a的数字部分
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\re\__init__.py", line 166, in match
+    return _compile(pattern, flags).match(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2025-06-02 20:41:36] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 35, in extract_major_version
+    name = Path(filename).stem
+           ^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 871, in __new__
+    self = cls._from_parts(args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 509, in _from_parts
+    drv, root, parts = self._parse_args(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 493, in _parse_args
+    a = os.fspath(a)
+        ^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+[2025-06-02 20:46:54] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 78, in compare_versions
+    na = int(re.match(r'\d+', a).group()) if re.match(r'\d+', a) else 0  # 提取a的数字部分
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\re\__init__.py", line 166, in match
+    return _compile(pattern, flags).match(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+
+[2025-06-02 20:46:54] Traceback (most recent call last):
+  File "D:\myProject\searchDrawingDog\main_functions.py", line 35, in extract_major_version
+    name = Path(filename).stem
+           ^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 871, in __new__
+    self = cls._from_parts(args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 509, in _from_parts
+    drv, root, parts = self._parse_args(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python311\Lib\pathlib.py", line 493, in _parse_args
+    a = os.fspath(a)
+        ^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
